@@ -17,7 +17,7 @@ app.get('/', (req, res) =>{
 
     ];
     //res.send('<p>home page</p>');
-    res.render('index', {title:'Home'});
+    res.render('index', {title:'Home', blogs});
 });
 
 app.get('/about', (req, res) =>{
