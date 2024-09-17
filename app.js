@@ -20,7 +20,7 @@ app.get('/about', (req, res) =>{
 });
 
 app.get('/blog/create', (req, res) =>{
-    res.render();
+    res.render('create');
 })
 
 // 404 page
